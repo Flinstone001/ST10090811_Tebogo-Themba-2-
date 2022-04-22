@@ -1,0 +1,295 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <style>
+
+        /* Styling the Body element i.e. Color,
+        Font, Alignment */
+        body {
+            background-color: #05c46b;
+            font-family: Verdana;
+            text-align: center;
+        }
+
+        /* Styling the Form (Color, Padding, Shadow) */
+        form {
+            background-color: #fff;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 30px 20px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Styling form-control Class */
+        .form-control {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+
+        /* Styling form-control Label */
+        .form-control label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        /* Styling form-control input,
+        select, textarea */
+        .form-control input,
+        .form-control select,
+        .form-control textarea {
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;
+        }
+
+        /* Styling form-control Radio
+        button and Checkbox */
+        .form-control input[type="radio"],
+        .form-control input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+        }
+
+        /* Styling Button */
+        button {
+            background-color: #05c46b;
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            font-size: 21px;
+            display: block;
+            width: 100%;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+
+<body>
+
+
+<!-- background images start -->
+<!--
+  <div id="background">
+
+ <img class="background_stretch" src="https://p.favim.com/orig/2018/09/09/music-simpson-vibes-Favim.com-6294410.jpg" alt="lofi aethetics" width="100%">
+
+  </div>
+
+  <div id="background_right">
+
+<img class="background_stretch_right" src="https://m.media-amazon.com/images/I/51SAznMLbhL._AC_SY580_.jpg" alt="stars" width="100%">
+
+</div><br>
+-->
+
+<!-- background images end -->
+
+<!-- Nav bar start -->
+<!--
+ <nav id="navbar">
+
+ <a class="nav-link" href="index.html">Home</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+ <a class="nav-link" href="aboutUs.html">About us</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ <a class="nav-link" href="contactUs.html">Contact Us</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ <a class="nav-link" href="training_routine.html">Training Routine</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ <a class="nav-link" href="getInvolved.html">Get Involved</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+</nav><br><br>
+-->
+<!-- nav bar end -->
+
+<!-- get involve page starts -->
+<section class="main-section" id="Get_Involved">
+
+<header><strong>Sign up</strong></header>
+
+<h1>Gym like a viking, feel like a viking & look like a viking</h1>
+<h2>Get started today, waste no time!</h2>
+
+    <!-- Create Form -->
+    <form id="form">
+
+        <!-- Details -->
+        <div class="form-control">
+            <label for="name" id="label-name">
+                Name
+            </label>
+
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="name"
+                   placeholder="Enter your name" />
+        </div>
+
+        <div class="form-control">
+            <label for="email" id="label-email">
+                Email
+            </label>
+
+            <!-- Input Type Email-->
+            <input type="email"
+                   id="email"
+                   placeholder="Enter your email" />
+        </div>
+
+        <div class="form-control">
+            <label for="age" id="label-age">
+                Age
+            </label>
+
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="age"
+                   placeholder="Enter your age" />
+        </div>
+
+        <div class="form-control">
+            <label for="phone_number" id="label-phone_number">
+                Phone Number
+            </label>
+
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="age"
+                   placeholder="Enter your phone number" />
+        </div>
+
+        <div class="form-control">
+            <label for="role" id="label-role">
+                Which option best describes you?
+            </label>
+
+            <!-- Dropdown options -->
+            <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">
+                    Professional
+                </option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <div class="form-control">
+            <label>
+                Would you recommed GeeksforGeeks
+                to a friend?
+            </label>
+
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-1"
+                       name="recommed">Yes</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">No</input>
+            </label>
+            <label for="recommed-3">
+                <input type="radio"
+                       id="recommed-3"
+                       name="recommed">Maybe</input>
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label>Languages and Frameworks known
+                <small>(Check all that apply)</small>
+            </label>
+            <!-- Input Type Checkbox -->
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">C</input></label>
+            <label for="inp-2">
+                <input type="checkbox"
+                       name="inp">C++</input></label>
+            <label for="inp-3">
+                <input type="checkbox"
+                       name="inp">C#</input></label>
+            <label for="inp-4">
+                <input type="checkbox"
+                       name="inp">Java</input></label>
+            <label for="inp-5">
+                <input type="checkbox"
+                       name="inp">Python</input></label>
+            <label for="inp-6">
+                <input type="checkbox"
+                       name="inp">JavaScript</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">React</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">Angular</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">Django</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">Spring</input></label>
+        </div>
+
+        <div class="form-control">
+            <label for="comment">
+                Any additional comments or suggestions
+            </label>
+
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment"
+                placeholder="Enter your comment here">
+            </textarea>
+        </div>
+
+        <!-- Multi-line Text Input Control -->
+        <button type="submit" value="submit">
+            Submit
+        </button>
+    </form>
+
+<!-- <br><iframe width="329" height="185" src="" title="" frameborder="0" allow="" allowfullscreen></iframe> -->
+
+</p>
+
+<!-- navigation bar starts -->
+<nav id="navbar">
+<a class="nav-link" href=index.html href="#Home">Home</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+
+<a class="nav-link" href=aboutUs.html href="#About_Us">About Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+
+<a class="nav-link" href=training_routine.html href="#Training_Routine">Training Routine</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+
+<!-- <a class="nav-link" href=getInvolved.html href="#Get_Involved">Get Involved</a><br><br> -->
+
+<a class="nav-link" href=contactUs.html href="#Contact_us">Contact Us</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+</nav><br><br>
+<!-- navigation bar ends -->
+
+<!-- get involve page ends -->
+
+
+       </main>
+<!-- main content end -->
+
+  </body>
+
+</html>
